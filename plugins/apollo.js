@@ -6,4 +6,6 @@ const apolloClient = new ApolloClient({
   cache: new InMemoryCache(),
 });
 
-provideApolloClient(apolloClient);
+export default defineNuxtPlugin(() => {
+  provideApolloClient(apolloClient);
+});

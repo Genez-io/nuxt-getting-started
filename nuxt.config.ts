@@ -2,9 +2,9 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  buildModules: ['@nuxtjs/apollo'],
+  modules: ['@nuxtjs/apollo'],
   apollo: {
-    clientConfigs: {
+    clients: {
       default: {
         httpEndpoint: process.env.GRAPHQL_API_URL,
       },
