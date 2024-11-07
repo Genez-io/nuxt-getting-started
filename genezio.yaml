@@ -1,6 +1,3 @@
-# The name of the project.
-name: nuxt-getting-started
-# The region where the project is deployed.
+name: nuxt-crm
 region: us-east-1
-# The version of the Genezio YAML configuration to parse.
 yamlVersion: 2
