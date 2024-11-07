@@ -10,9 +10,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@apollo/client": "^3.11.8",
+    "@vue/apollo-composable": "^4.0.0-alpha.15",
     "nuxt": "^3.13.0",
-    "vue": "latest",
-    "@apollo/client": "^3.5.10",
-    "@vue/apollo-composable": "^4.0.0-alpha.15"
+    "vue": "latest"
   }
 }
