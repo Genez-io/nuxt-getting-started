@@ -4,3 +4,12 @@ name: nuxt-getting-started
 region: us-east-1
 # The version of the Genezio YAML configuration to parse.
 yamlVersion: 2
+nuxt:
+    # The path to the Nuxt project.
+    path: .
+    # The package manager to use.
+    packageManager: npm
+    # The scripts to run.
+    scripts:
+        deploy:
+            - npm install
